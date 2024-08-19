@@ -10,7 +10,7 @@ h1 {
   text-shadow: 3px 0 #da0463;
 }
 
-footer {
+footer ,a {
   color: #dbedf3;
   font-family: sans-serif;
 }
