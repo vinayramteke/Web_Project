@@ -1,0 +1,17 @@
+{
+  "name": "qr_code_project",
+  "version": "1.0.0",
+  "description": "Qr imp generator using npm module.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vinay_r04",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^10.1.8",
+    "qr-image": "^3.2.0"
+  }
+}
