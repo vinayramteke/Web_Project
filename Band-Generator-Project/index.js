@@ -16,9 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
   //Step 1 - Make the get route work and render the index.ejs file.
-  app.get("/", (req, res)=>{
-    res.render("index.ejs")
-  });
+  res.render("index.ejs");
 });
 
 app.post("/submit", (req, res) => {
